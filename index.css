@@ -5,7 +5,10 @@ display: block;
 height: auto;
 margin:0 auto;
 }
-
+/*centering the title*/
+#title{
+  text-align: center;
+}
 body{
   font-family: "Arial", sans-serif;
   text-align: centre;
@@ -42,6 +45,7 @@ a:visited {
   border-radius: 5px;
   background: #eee;
 }
+
 @media (max-width: 460px) {
   #main {
     margin: 0;
@@ -56,6 +60,10 @@ a:visited {
 
 #img-caption {
   margin: 15px 0 5px 0;
+  /*centering the caption, changing it from bold to normal and ensuring the font size matches the caption*/
+  font-weight: normal;
+  font-size: 12px;
+  text-align: center;
 }
 
 @media (max-width: 460px) {
@@ -78,13 +86,21 @@ ul {
 li {
   margin: 16px 0;
 }
+
 .caption{
+  /*centering the caption, changing it from bold to normal and ensuring the font size matches the img-caption*/
   font-weight: normal;
   font-size: 12px;
+  text-align: center;
 }
 blockquote {
   font-style: italic;
   max-width: 545px;
   margin: 0 auto 50px auto;
   text-align: left;
+}
+
+/*centering the footer sentence including the anchor element*/
+#wik-entry{
+  text-align: center
 }
